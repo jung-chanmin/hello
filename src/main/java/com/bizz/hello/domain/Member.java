@@ -5,7 +5,7 @@ import lombok.Data;
 @Data
 public class Member {
 
-    private String uuid;
+    private Long id;
     private String name;
 
 //    public Long getId() {
